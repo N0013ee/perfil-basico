@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bokor&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --cor0: #03045e;
+    --cor1: #0077b6;
+    --cor2: #00b4d8;
+    --cor3: #90e0ef;
+    --cor4: #caf0f8;
+
+    --fonte-padrão: "Work Sans", sans-serif;
+    --fonte-destaque: "Bokor", system-ui;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body{
+    background-image: url('imagens/imagem.jpg');
+    background-size: cover;
+    background-position: left top;
+    font-family: var(--fonte-padrão);
+    min-height: 100vh;
+    height: 100vh;
+}
+
+header{
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: white;
+}
+
+header > h1{
+    font-family: "Bokor", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+nav{
+    background-color: black;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+nav > a{
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+
+nav > a:hover{
+    background-color: var(--cor1);
+}
+
+main{
+    background-color: var(--cor1);
+    color: white;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 10px;
+    border: 2px solid var(--cor3);
+    border-radius: 5px;
+}
+
+main h1{
+    font-family: var(--fonte-destaque);
+    font-weight: 400;
+    font-style: normal;
+}
+main h2{
+    padding-bottom: 10px;
+    font-family: var(--fonte-padrão);
+    font-weight: 400;
+    font-style: italic;
+}
+
+footer{
+    background-color: var(--cor5);
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
+}
