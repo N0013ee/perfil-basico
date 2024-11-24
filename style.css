@@ -220,13 +220,6 @@ span{
     height: 100%;
     border-left: 3px solid black;
     right: -8;
-    animation: cursor 0.3s infinite;
-}
-
-@keyframes cursor{
-    to{
-        border-left: 3px solid #77cafd;
-    }
 }
 
 @keyframes words{
